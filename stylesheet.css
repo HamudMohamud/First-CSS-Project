@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    background-color: pink;
+}
+
+#e {
+    text-align: center;
+    font-family: monospace;
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+}
+
+.border {
+    border: solid black;
+    text-align: center;
+    color: white;
+    background-image: url(img/desktop-wallpaper-computer-code-px-cool-code.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 51, 255), 0 0 1em rgb(178, 178, 254), 0 0 0.2em rgb(255, 116, 2);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 15px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline overline;
+    color: purple;
+}
+nav {
+    justify-content: center;
+    display: flex;
+    height: 3em;
+    border-bottom: solid 2px black;
+   
+}
+
+.container {
+    margin: 50px;
+    box-sizing: content-box;  
+}
+
+.container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: monospace;
+}
+
+input {
+    border: solid 2px rgba(209, 189, 189, 1);
+    border-radius: 5px 10px 5px 10px;
+    outline: none; 
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+    width: 400px;
+    cursor: pointer;
+    position: relative;
+    padding: 15px;
+}
+
+.container button {
+    border-radius: 5px 10px 5px 10px;
+    font-family: monospace;
+    margin-left: 46.5%;
+    font-size: 25px;
+}
+
+span {
+    font-family: monospace;
+    margin-left: 39%;
+}
+
+.container a {
+    font-family: monospace;
+}
+
+
+button {
+    border-radius: 5px;
+    margin: 7px;
+}
+
+#sudo {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#sudo section {
+    display: inline-block;
+    border: solid 1px rebeccapurple;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;   
+}
+
+#code {
+    margin-top: 150px;
+}
+
+#w img {
+    border: solid 1px black;
+    border-radius: 30px;
+    width: 20em;
+    height: 20em;
+    margin-left: 10px;
+    margin-top: 2em;
+    background-size: contain;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text p {
+    font-family: monospace;
+    font-size: 18px;
+    position: relative;
+    right: 50px;
+}
+
+#j {
+    margin-left: 410px;
+
+}
+
+#j textarea {
+    border-radius: 30px 10px;
+    width: 500px;
+    font-size: 20px;
+    height: 200px;
+    padding: 12px;
+    text-transform: capitalize;
+}
+
+#j button { 
+    text-transform: capitalize;
+    border-radius: 5px 10px 5px 10px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+button:hover {
+    color:#fff !important ;
+}
+
+@media  (max-width: 1000px) {
+    body {
+        margin: 1000px;
+        background-color: pink;
+    }
+    nav {
+        background-color: pink;
+    }
+}
+
+@media  (max-width: 1000px) {
+    body {
+        margin: 0px;
+        background-color: pink;
+    }
+    nav {
+        background-color: white;
+    }
+}
+
